@@ -1,17 +1,33 @@
 @import "~bootstrap/dist/css/bootstrap.min.css";
 
 body {
-  background-color: green;
+  background-image: url("https://img.freepik.com/fotos-premium/cartas-fichas-poquer-sobre-fondo-verde_96336-1277.jpg");
+
+  background-size: cover;
+  background-position: center;
+  align-items: center;
+}
+.cedarville-cursive-regular {
+  font-family: "Cedarville Cursive", cursive;
+  font-weight: 400;
+  font-style: normal;
 }
 
+#title {
+  margin-bottom: 150px;
+  font-family: "Cedarville Cursive", cursive;
+}
+button {
+  margin-bottom: 150px;
+}
 .cardBody {
   background-color: white;
   width: 370px;
   height: 500px;
   border-radius: 15px;
   text-align: center;
-  margin-left: 440px;
-  margin-top: 25px;
+  margin-bottom: 200px;
+  position: relative;
 }
 .cardSymbol {
   font-size: 65px;
@@ -22,9 +38,21 @@ body {
   font-size: 95px;
   margin-top: 65px;
 }
-
+h2 {
+  font-size: 95px;
+  margin: 95px;
+  font-weight: bold;
+  color: black;
+}
 #cardSymbolDown {
   margin-right: 15px;
   transform: rotate(0.5turn);
   margin-top: 90px;
+}
+.black {
+  color: black;
+}
+
+.red {
+  color: red;
 }
